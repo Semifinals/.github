@@ -1,0 +1,13 @@
+{
+  "name": "Semifinals Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet:6.0",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "Semifinals/*": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  }
+}
